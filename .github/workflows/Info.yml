@@ -1,4 +1,4 @@
-name: Dataworkfloe
+name: OutputInformation
 on: workflow_dispatch
 jobs:
   Info:
