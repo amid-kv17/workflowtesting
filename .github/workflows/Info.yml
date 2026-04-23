@@ -1,0 +1,10 @@
+name: Dataworkfloe
+on: workflow_dispatch
+jobs:
+  Info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Info
+        run: echo "${{ toJson(github) }}"
+    
+  
